@@ -53,8 +53,8 @@ async def upload_imagem(
     print(file)
     file_location = f"{UPLOAD_DIR}/{file.filename}"
 
-    try:
-        processed_image_location = 
+    # try:
+    #     processed_image_location = 
 
     # with open(file_location, "wb") as buffer:
     #     shutil.copyfileobj(file.file, buffer)
