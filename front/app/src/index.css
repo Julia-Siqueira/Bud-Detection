@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins';
+}
+
+.sombra-header {
+    -webkit-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+box-shadow: 0px 0px 7px 1px rgba(0,0,0,0.1);
+} 
+
+:root {
+    --green-light: #B3DE90;
+    --green-fonts-escuro: #2b3126;
+    --gray: #929D93;
+    --green-text: #95CA6C;
+    --green-button: #A2B692;
+    --green-background: #F9FCF8;
+    --green-text-results: #545A4F
+}
+
+
+.container-upload{
+    height: 50vh;
+}
+
+.border-color{
+    border-color: var(--green-button);
+}
+
+.green-light {
+    color: var(--green-light);
+}
+
+.green-light-background{
+    background-color: var(--green-light);
+}
+.green-fonts-escuro {
+    color: var(--green-fonts-escuro);
+}
+.gray {
+    color: var(--gray);
+}
+.green-text {
+    color: var(--green-text);
+}
+.green-button {
+    color: var(--green-button);
+}
+.green-background {
+    background-color: var(--green-background);
+}
+
+.button-enviar {
+    color: var(--green-button);
+    border: solid var(--green-button) 1px;
+    font-weight: 500;
+}
+
+.green-text-results {
+    color: var(--green-text-results)
+}
+
